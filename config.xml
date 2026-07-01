@@ -9,5 +9,5 @@
     <access origin="*" />
     <preference name="Orientation" value="portrait" />
     
-    <icon src="https://raw.githubusercontent.com/angel10arcila/venearci-radio/refs/heads/main/venearci.png" />
+    <icon src="https://raw.githubusercontent.com/venearci10/venearci-network/refs/heads/main/venearci-logo.png" />
 </widget>
