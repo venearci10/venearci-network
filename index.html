@@ -294,6 +294,15 @@
 
       const root = createRoot(document.getElementById("root"));
       root.render(<StrictMode><App /></StrictMode>);
+   
+  
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log('Service Worker Registrado Exitosamente'))
+      .catch(err => console.log('Error al registrar Service Worker', err));
+  }
     </script>
+    
   </body>
 </html>
